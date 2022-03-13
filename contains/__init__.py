@@ -64,7 +64,6 @@ def updateNote():
 @app.route("/createNote", methods=['POST'])
 def createNote():
     noteText = request.form.get('noteFormData')
-    print(noteText)
     newNote = Note(text=noteText)
     db.session.add(newNote)
     db.session.commit()
