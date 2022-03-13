@@ -1,0 +1,118 @@
+body {
+color: black;
+background-color: #22577A !IMPORTANT;
+}
+
+.container {
+max-width: 1420px;
+padding-right: 25px;
+padding-left: 25px;
+padding-bottom: 25px;
+background-color: white;
+border-radius: 46px;
+margin-top: 25px;
+}
+
+.notesList {
+display: grid;
+grid-gap: 2rem;
+grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.note {
+color: black;
+border-radius: 12px;
+min-height: 270px;
+display: flex;
+justify-content: space-between;
+background-color: #fef68a;
+flex-direction: column;
+max-height: 270px;
+overflow-x: hidden;
+overflow-y: scroll;
+scrollbar-width: none;  /* Firefox */
+}
+
+
+.newNote {
+color: black;
+border-radius: 12px;
+padding: 1rem;
+min-height: 270px;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+background-color:#22577A !IMPORTANT;
+max-height: 270px;
+}
+
+.noteFooter {
+display: flex;
+alignItems: center;
+justify-content:space-between;
+background-color:#22577A !IMPORTANT;
+}
+
+.noteForm {
+border: none;
+resize: none;
+background-color: #22577A !IMPORTANT;
+outline:none;
+font-size: 1.2vw;
+overflow-x: hidden;
+overflow-y: scroll;
+scrollbar-width: none;  /* Firefox */
+}
+
+.saveBtn {
+    background-color: #e1e1e1;
+    border: none;
+    border-radius: 12px;
+    padding: 0px 8px 0px 8px;
+}
+
+.notesTitle {
+text-align: center;
+color: #22577A !IMPORTANT;
+font-size: 4.5rem;
+}
+
+.notesText {
+font-weight: 450;
+font-size: 2rem;
+padding: 6px 20px 6px 20px;
+}
+
+.deleteIcon {
+text-decoration: none !important;
+padding-right: 1rem;
+}
+
+.deleteIcon:hover {
+opacity: .8;
+color: black;
+text-decoration: none;
+}
+
+.noteDate{
+padding-left: 1rem;
+color: white
+}
+
+.noteDate:hover {
+color: white;
+text-decoration: none;}
+
+a:hover{
+color: white;
+text-decoration: none;
+}
+.updateLink {
+color: white !important;
+}
+
+hr {
+border-top: 2px solid gray;
+margin-top: 0;
+margin-bottom: 1.6rem;
+}
