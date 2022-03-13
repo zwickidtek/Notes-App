@@ -1,6 +1,6 @@
 # Notes-App
 
-<h1> Note's web app </h1>
+<h1> Notes web app </h1>
 
 <h3> This project was created with Python and Flask </h3>
 <h4> To run on your machine:</h4>
